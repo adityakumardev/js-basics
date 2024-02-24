@@ -2,7 +2,6 @@
 // 1. Primitive Datatype => value datatypes
 
 //datatypes which gives the copy of it for another use
-// jab hume datatype me kuchh change karna hoga tab hum uski copy pe kaam karenge na ki actual value pe
 
 /*
 1. Number
@@ -17,7 +16,6 @@
 // 2. Non-primitive data types => reference data types
 
 //datatypes which passes the reference of it for reuse
-//jab hum is datatype pe kaam karenge tab uska reference hume milega or actual variable me changes honge
 
 /*
 1. Array
@@ -48,12 +46,12 @@ console.log(typeof isASymbol);
 
 console.log("\n");
 
-const arr = ["choot", "lund"]
+const arr = ["one", "two"]
 console.log(typeof arr);
 
 const anObject = {
-    name: "Sheetal",
-    hasChoot: "true",
+    name: "Aditya",
+    hasAName: "true",
 }
 
 console.log(typeof anObject)

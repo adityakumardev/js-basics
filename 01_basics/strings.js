@@ -1,7 +1,7 @@
 const name = "Aditya"
 const repoCount = 8
 
-// console.log(name + repoCount + " Value")
+console.log(name + repoCount + " Value")
 
 // this is the best way to concatenate strings
 
