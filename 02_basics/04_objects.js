@@ -45,6 +45,6 @@ const schoolInfo = {
 
 const {school_name : name, school_code : code, school_email : email} = schoolInfo // destructor
 
-console.log(name.toUpperCase());
-console.log(Number(code));
-console.log(email.toLowerCase());
+// console.log(name.toUpperCase());
+// console.log(Number(code));
+// console.log(email.toLowerCase());
