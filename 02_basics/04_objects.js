@@ -31,6 +31,20 @@ const obj3 = {...obj1, ...obj2} // object concatenation using spread operator
 
 // accessing keys and values as array
 
-console.log(Object.keys(tinderUser));
-console.log(Object.values(tinderUser));
+// console.log(Object.keys(tinderUser));
+// console.log(Object.values(tinderUser));
 // console.log(valueOf(tinderUser.name));
+
+// object destructuring
+
+const schoolInfo = {
+    school_name: "Delhi Public School",
+    school_code: 123,
+    school_email: "dps@gmail.com"
+}
+
+const {school_name : name, school_code : code, school_email : email} = schoolInfo // destructor
+
+console.log(name.toUpperCase());
+console.log(Number(code));
+console.log(email.toLowerCase());
