@@ -17,6 +17,6 @@ if(true) {
         const website = " github"
         console.log(username + website)
     }
-    console.log(website) //refError
+    //console.log(website) //refError
 }
-console.log(username); //refError
+//console.log(username); //refError
